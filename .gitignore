@@ -1,17 +1,20 @@
+node_modules
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
-.gitignore
 # dependencies
-/backend/node_modules
-/frontend/node_modules
+
+/node_modules
+
 /.pnp
+
 .pnp.js
 
+node_modules/
 # testing
 /coverage
 
 # next.js
-/backend/dist
-/frontend/dist
+dist/
+
 /.next/
 /out/
 
@@ -28,7 +31,7 @@ yarn-debug.log*
 yarn-error.log*
 
 # local env files
-/backend/.env*.local
+.env
 
 # vercel
 .vercel
